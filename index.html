@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,200;0,300;0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="main-width">
+        <header>
+          <div class="logo">
+            <i class="fa-solid fa-r"></i>
+          </div>
+
+          <nav>
+            <div class="hamb">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <ul class="nav-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Works</a></li>
+              <li class="btn"><a href="#">Contact Me</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="hero-text">
+            <h3>Hi,</h3>
+            <h1>I Am <span class="input"></span></h1>
+            <p>FullStack Web Developer</p>
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            <button type="button">More About Me</button>
+          </div>
+          <div class="bottom">
+            <p>@ 2022 Rina - All Rigths Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".input",{
+        strings:["Rina Yelane.","Web Developer"],
+        typeSpeed:70,
+        backSpeed:60,
+        loop:true
+      });
+    </script>
+  </body>
+</html>
